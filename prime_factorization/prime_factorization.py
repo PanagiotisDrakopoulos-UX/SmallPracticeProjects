@@ -7,7 +7,7 @@ def prime_factorization():
     mylimit =  x ** 0.5
     my_list = []
     while x<= 1:
-        print("Error, the number must be bigger than 1 - TRY AGAIN!")
+        print("Error, the number must be bigger than 1 - Try again!")
         x= int(input("Please enter a number: "))
     else:
         while d<= mylimit:
